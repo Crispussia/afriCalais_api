@@ -2,7 +2,8 @@ const express = require("express");//c'est un framework qui fait la liaison entr
 const app = express();//on crée une variable qui stock express
 const mysql = require("mysql");
 const cors = require("cors");//il permet de tourner sur deux port
-const port=5001;
+require("dotenv").config();//
+const port= process.env.PORT || 5001;
 app.use(express.json());//il utilise le fichier sous format json
 
 app.use(cors());
