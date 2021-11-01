@@ -9,10 +9,10 @@ app.use(express.json());//il utilise le fichier sous format json
 app.use(cors());
 
 const db = mysql.createConnection({//Création de la connexion à la bdd
-  user: "root",
-  host: "localhost",
-  password: "",
-  database: "afriqueCalais",
+  user: "247449",
+  host: "mysql-crispussia.alwaysdata.net",
+  password: "Cdegbelo@2000",
+  database: "crispussia_afriquecalais",
 });
 
 //*--------- Les categories----------*/
